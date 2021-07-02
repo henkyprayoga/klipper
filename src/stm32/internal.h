@@ -7,9 +7,11 @@
 #if CONFIG_MACH_STM32F0
 #include "stm32f0xx.h"
 #elif CONFIG_MACH_STM32F1
-#include "stm32f1xx.h"
+#include "stm32f1xx.h" 
 #elif CONFIG_MACH_STM32F2
-#include "stm32f2xx.h"
+#include "stm32f2xx.h" 
+#elif CONFIG_MACH_STM32F3
+#include "stm32f3xx.h" 
 #elif CONFIG_MACH_STM32F4
 #include "stm32f4xx.h"
 #endif
